@@ -1,0 +1,40 @@
+body {
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 400px;
+    background: white;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #fafafa;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 4px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+a.delete {
+    color: red;
+    text-decoration: none;
+}
